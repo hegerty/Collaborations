@@ -4,8 +4,8 @@ setwd("D:/NEW SGH Survey Project/Data")
 options(max.print = 99999999)
 library(foreign)
 ## Open data
-pl<-read.dta("Poland-2019-full data.dta")
-lv<-read.dta("Latvia-2019-full data.dta")
+pl<-read.dta("https://github.com/hegerty/Collaborations/blob/main/Poland-2019-full-data.dta?raw=true")
+lv<-read.dta("https://github.com/hegerty/Collaborations/blob/main/Latvia-2019-full data.dta?raw=true")
 data<-pl
 #data<-lv
 dim(data)
